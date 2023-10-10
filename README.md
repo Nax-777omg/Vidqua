@@ -1,6 +1,6 @@
 # Vidqua
 
-hola que tal , este es el codigo de vidqua por el momento-
+Vidqua fue creado con el ojetivo de hacer un hosting de videos open-source, C
 
 
 #  ¿Como montar un Vidqua?
