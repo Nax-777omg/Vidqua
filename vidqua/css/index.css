@@ -1,0 +1,183 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.font1{
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+margin-left: 2%;
+}
+
+.font2{
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+font-size: 70%; 
+margin-left: 1%;
+}
+
+.font3{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 1%;
+    margin-top: 5%;
+    transition: font-size 0.3s ease; 
+    
+}
+.font4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 90%; 
+    margin-left: 1%;
+    }
+    .font5{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 65%;
+        margin-left: 1%;
+        }
+
+
+#cpanel{
+width: 10%;
+    text-align: left;
+    list-style:none;
+}
+
+
+.font3:hover{
+    
+    font-size: 115%;
+    
+}
+
+#cpanel{
+    float: left;
+}
+
+#logo{
+align-items: center;
+height: 10%;
+width: 7%;
+}
+
+
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#logo {
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+    pointer-events: none;
+}
+
+
+
+
+input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#banner {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+    pointer-events: none;
+}
+
+
+
+  #search {
+
+    margin-left: 2%;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background-color: #1a1a1a;
+    color: white;
+    border:5px;
+    border-color: white;
+    padding: 5px;
+    font-size: 16px;
+    
+  }
+
+
+
+
+
+#respectivo {
+width: 21%;
+float: left;
+border-radius: 5px;
+margin-left: 0.5%;
+margin-top: 0.5%;
+background-color: rgb(19, 19, 19);
+border: 25px white;
+height: 40%;
+border: 1px solid #000;
+}
+
+
+#miniatura{
+    border: 1px solid #000;
+    float: left;
+    width: 95%;
+    height: 55%;
+    margin-bottom: 1%;
+    max-width: 1280px;
+    max-height: 200px;
+   margin: 5px;
+   
+    
+    
+}
+
+.fontmin1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-top: 20%;
+    margin-left: 2%;
+    font-size: 120%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.fontmin2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-left: 2%;
+    font-size: 80%;
+}
+
+
+.fontmin3{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-left: 2%;
+    font-size: 75%;
+}
+
+
+
+
+
+
+#ppic{
+    height: 50px;
+    width: 50px;
+    
+    margin-left: 2%;
+}
+
+*{
+    color: white;
+}
