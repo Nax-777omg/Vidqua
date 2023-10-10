@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+.font1{
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+margin-left: 2%;
+}
+
+.font2{
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+font-size: 70%; 
+margin-left: 1%;
+}
+
+.font3{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 1%;
+    margin-top: 5%;
+    transition: font-size 0.3s ease;     
+}
+
+.font4{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.font5{
+    margin-left: 2%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.font6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.contenedor > * {
+    align-items: baseline;
+    display: inline-block; 
+    margin: 10px;
+}
+
+#wtfiak{
+    text-align: center;
+    font-size: 1200%;
+}
