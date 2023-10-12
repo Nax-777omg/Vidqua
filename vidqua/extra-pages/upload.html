@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/upload.css">
+    
+</head>
+<body>
+
+
+
+<form style="color: white;" action="../php/upload.php" method="POST" enctype="multipart/form-data">
+    <label for="archivo1"><p class="font1">Eligue tu video</p></label>
+    <input type="file" name="archivo1" id="archivo1" required><br>
+
+    <br>
+    <br>
+
+    <label  for="nombre"><h1 class="font1">Titulo</h1></label>
+    <input type="text" id="nombre" class="inputbar" name="titulo" accept-charset="UTF-8"><br>
+<br>
+<br>
+    <label  for="nombre"><h1 class="font1">Descripcion</h1> <p class="font1">(opcional)</p></label>
+    <textarea class="inputbar" type="text" id="descripcion" name="descripcion" accept-charset="UTF-8"></textarea><br>
+<br>
+<br>
+
+<label for="archivo2" ><p class="font1">Eligue una miniatura (opcional)</p></label>
+<input type="file" name="archivo2" id="archivo2" required><br>
+
+
+<br>
+<br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+
+
+
+
+
+</body>
+</html>
